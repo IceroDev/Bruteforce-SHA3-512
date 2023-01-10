@@ -7,7 +7,6 @@ def bruteforce(passwordHash):
     y=''
     length=1
     wordlistHash=''
-    passwordHash=passwordHash
 
     while wordlistHash != passwordHash:
         for c in itertools.product(wordlist, repeat=length):
